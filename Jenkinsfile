@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Narender79/Moot-Court.git', credentialsId: 'github-token'
+                git url: 'https://github.com/spidermancow/Moot-Court.git', credentialsId: 'github-token'
             }
         }
 
